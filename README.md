@@ -1,4 +1,4 @@
-# UI Components Repository
+# UI Components Library
 
 ## Prerequisites
 
