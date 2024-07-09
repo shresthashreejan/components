@@ -1,0 +1,13 @@
+html {
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+	height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgba(160, 160, 160, 0.5);
+	cursor: pointer;
+}

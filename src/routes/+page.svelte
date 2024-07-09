@@ -1,3 +1,7 @@
-<nav>
-	<h1>Components.</h1>
-</nav>
+<script lang="ts">
+	import InfiniteScroller from '$lib/components/InfiniteScroller/InfiniteScroller.svelte';
+</script>
+
+<main>
+	<InfiniteScroller />
+</main>
