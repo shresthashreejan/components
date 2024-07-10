@@ -4,6 +4,6 @@
 </script>
 
 <main>
-	<!-- <InfiniteScroller /> -->
+	<InfiniteScroller />
 	<FileInput />
 </main>
