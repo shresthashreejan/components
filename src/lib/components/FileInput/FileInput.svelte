@@ -26,10 +26,8 @@
 				let dt = e.dataTransfer;
 				if (dt) {
 					let files = dt.files;
-					if (files.length === 1) {
-						console.log(files[0]);
-					} else {
-						console.error('Please upload only one image!');
+					if (files) {
+						console.log(files);
 					}
 				}
 			},

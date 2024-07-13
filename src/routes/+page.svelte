@@ -1,9 +1,1 @@
-<script lang="ts">
-	import InfiniteScroller from '$lib/components/InfiniteScroller/InfiniteScroller.svelte';
-	import FileInput from '$lib/components/FileInput/FileInput.svelte';
-</script>
-
-<main>
-	<!-- <InfiniteScroller /> -->
-	<FileInput />
-</main>
+<main class="flex items-center justify-center text-5xl">Component Library!</main>

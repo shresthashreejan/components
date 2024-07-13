@@ -1,9 +1,8 @@
 <script lang="ts">
-	import InfiniteScroller from '$lib/components/InfiniteScroller/InfiniteScroller.svelte';
 	import FileInput from '$lib/components/FileInput/FileInput.svelte';
 </script>
 
 <main>
-	<InfiniteScroller />
+	<header class="text-5xl">File Input</header>
 	<FileInput />
 </main>
