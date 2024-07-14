@@ -3,6 +3,6 @@
 </script>
 
 <main>
-	<header class="text-5xl">File Input</header>
-	<FileInput />
+	<div class="top-container h-1/2"><FileInput /></div>
+	<div class="bottom-container h-1/2"><header>File Input</header></div>
 </main>
