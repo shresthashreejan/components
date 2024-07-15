@@ -2,7 +2,18 @@
 	import FileInput from '$lib/components/FileInput/FileInput.svelte';
 </script>
 
-<main>
-	<div class="top-container h-1/2"><FileInput /></div>
-	<div class="bottom-container h-1/2"><header>File Input</header></div>
+<main class="viewer-container flex flex-col">
+	<div class="top-container overflow-auto">
+		<FileInput />
+	</div>
+	<div class="bottom-container flex-grow overflow-auto px-4">
+		<header class="text-4xl">File Input</header>
+	</div>
 </main>
+
+<style>
+	.viewer-container {
+		min-height: calc(100vh - 2rem);
+		overflow-y: auto;
+	}
+</style>

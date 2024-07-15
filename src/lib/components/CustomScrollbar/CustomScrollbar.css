@@ -10,4 +10,5 @@ html {
 ::-webkit-scrollbar-thumb {
 	background-color: rgba(160, 160, 160, 0.5);
 	cursor: pointer;
+	border-radius: 12px;
 }

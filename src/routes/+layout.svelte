@@ -12,6 +12,9 @@
 				>Infinite Scroller</a
 			>
 			<a href="/fileinput" class="text-xl transition-opacity hover:opacity-60">File Input</a>
+			<a href="/customscrollbar" class="text-xl transition-opacity hover:opacity-60"
+				>Custom Scrollbar</a
+			>
 		</div>
 	</section>
 	<section class="main-container w-10/12">
