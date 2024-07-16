@@ -1,22 +1,8 @@
 <script lang="ts">
-	import type { ComponentInfo } from '$lib/types/types';
-	import { traverseDirectory } from '$lib/data/Components.svelte';
-
-	let componentsData: ComponentInfo[] = [];
-
-	async function loadComponents() {
-		componentsData = await traverseDirectory();
-
-		const loadedComponents: ComponentInfo[] = [];
-		for (const { apiName } of componentsData) {
-			const module = await import(`$lib/components/${apiName}/${apiName}.svelte`);
-			loadedComponents.push(module.default);
-		}
-		console.log(loadedComponents);
-	}
+	async function loadComponent() {}
 
 	$effect(() => {
-		loadComponents();
+		loadComponent();
 	});
 </script>
 

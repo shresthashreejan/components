@@ -1,10 +1,14 @@
 [
     {
-        "componentName": "CustomScrollbar",
-        "apiName": "CustomScrollbar"
+        "componentName": "Infinite Scrollbar",
+        "apiName": "InfiniteScrollbar"
     },
     {
-        "componentName": "FileInput",
+        "componentName": "File Input",
         "apiName": "FileInput"
+    },
+    {
+        "componentName": "Custom Scrollbar",
+        "apiName": "CustomScrollbar"
     }
 ]
