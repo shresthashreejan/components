@@ -1,7 +1,7 @@
 [
     {
-        "componentName": "Infinite Scrollbar",
-        "apiName": "InfiniteScrollbar"
+        "componentName": "Infinite Scroller",
+        "apiName": "InfiniteScroller"
     },
     {
         "componentName": "File Input",
