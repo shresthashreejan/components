@@ -36,11 +36,8 @@
 	});
 </script>
 
-<main class="flex justify-center p-4">
-	<div
-		bind:this={dropZone}
-		class="dropzone cursor min-h-[50vh] min-w-full rounded-xl border-2 transition-opacity md:min-w-[50vw]"
-	>
-		<div class="flex h-full items-center justify-center opacity-50">Drop your image here...</div>
+<main class="h-full w-full p-4">
+	<div bind:this={dropZone} class="dropzone cursor h-full rounded-xl border-2 transition-opacity">
+		<div class="flex h-full items-center justify-center">Drop your image here...</div>
 	</div>
 </main>

@@ -10,6 +10,7 @@
 			<div class="component-list flex flex-col">
 				<div class="text-xl">Component 1</div>
 				<div class="text-xl">Component 2</div>
+				<div class="text-xl">Component 3</div>
 			</div>
 		</nav>
 		<div class="w-full">

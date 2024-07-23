@@ -38,12 +38,14 @@
 	}
 </script>
 
-<main>
-	<div class="scroller max-w-full py-4" data-speed="fast" data-direction="right">
-		<ul class="scroller-inner flex flex-wrap gap-12">
-			{#each items as item (item)}
-				<li class="text-4xl">{item}</li>
-			{/each}
-		</ul>
+<main class="h-full w-full">
+	<div class="flex h-full items-center">
+		<div class="scroller py-4" data-speed="fast" data-direction="right">
+			<ul class="scroller-inner flex flex-wrap gap-8">
+				{#each items as item (item)}
+					<li class="text-4xl">{item}</li>
+				{/each}
+			</ul>
+		</div>
 	</div>
 </main>
