@@ -37,7 +37,10 @@
 </script>
 
 <main class="h-full w-full p-4">
-	<div bind:this={dropZone} class="dropzone cursor h-full rounded-xl border-2 transition-opacity">
+	<div
+		bind:this={dropZone}
+		class="dropzone cursor h-full w-full rounded-xl border-2 transition-opacity"
+	>
 		<div class="flex h-full items-center justify-center">Drop your image here...</div>
 	</div>
 </main>
