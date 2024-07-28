@@ -1,4 +1,6 @@
 export interface ComponentInfo {
 	componentName: string;
-	apiName: string;
+	description: string;
+	routeApi: string;
+	url: string;
 }

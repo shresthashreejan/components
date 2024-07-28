@@ -1,11 +1,20 @@
 [
     {
-        "componentName": "Custom Scrollbar"
+        "componentName": "Custom Scrollbar",
+        "description": "This is a custom description",
+        "routeApi": "customscrollbar",
+        "url": "https://github.com/shresthashreejan/components/tree/main/src/lib/components/CustomScrollbar"
     },
     {
-        "componentName": "File Input"
+        "componentName": "File Input",
+        "description": "This is a custom description",
+        "routeApi": "fileinput",
+        "url": "https://github.com/shresthashreejan/components/tree/main/src/lib/components/FileInput"
     },
     {
-        "componentName": "Infinite Scroller"
+        "componentName": "Infinite Scroller",
+        "description": "This is a custom description",
+        "routeApi": "infinitescroller",
+        "url": "https://github.com/shresthashreejan/components/tree/main/src/lib/components/InfiniteScroller"
     }
 ]
