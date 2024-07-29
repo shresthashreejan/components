@@ -1,14 +1,8 @@
-<script lang="ts">
-	import FileInput from '$lib/components/FileInput/FileInput.svelte';
-	import CustomScrollbar from '$lib/components/CustomScrollbar/CustomScrollbar.svelte';
-	import InfiniteScroller from '$lib/components/InfiniteScroller/InfiniteScroller.svelte';
-</script>
-
 <main class="flex h-screen justify-center">
 	<div class="flex h-full w-full flex-col gap-4 p-4">
-		<div class="flex h-1/2 flex-grow items-center justify-center border-2">
-			<InfiniteScroller />
+		<div class="flex flex-grow flex-col items-center justify-center gap-4 border-2">
+			<h1 class="text-8xl">Components Library.</h1>
+			<p class="text-3xl">A collection of simple, reusable components.</p>
 		</div>
-		<div class="flex h-1/2 flex-grow items-center justify-center border-2">Container 2</div>
 	</div>
 </main>
