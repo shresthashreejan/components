@@ -1,19 +1,19 @@
 [
     {
         "componentName": "Custom Scrollbar",
-        "description": "This is a custom description",
+        "description": "Replace default scrollbars with css.",
         "routeApi": "customscrollbar",
         "url": "https://github.com/shresthashreejan/components/tree/main/src/lib/components/CustomScrollbar"
     },
     {
         "componentName": "File Input",
-        "description": "This is a custom description",
+        "description": "Simple drag and drop file input component.",
         "routeApi": "fileinput",
         "url": "https://github.com/shresthashreejan/components/tree/main/src/lib/components/FileInput"
     },
     {
         "componentName": "Infinite Scroller",
-        "description": "This is a custom description",
+        "description": "Infinitely looping side scroller.",
         "routeApi": "infinitescroller",
         "url": "https://github.com/shresthashreejan/components/tree/main/src/lib/components/InfiniteScroller"
     }

@@ -17,8 +17,8 @@
 		<nav
 			class={`sidebar fixed z-50 flex h-full flex-col gap-4 border-r-2 bg-neutral-50 p-4 transition-transform duration-300 ease-in-out dark:bg-slate-900 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
 		>
-			<div class="flex items-end gap-8">
-				<a href="/" class="text-5xl">Components.</a>
+			<div class="flex items-end gap-4 md:gap-8">
+				<a href="/" class="text-5xl" onclick={toggleSidebar}>Components.</a>
 
 				<button class="rounded-full border-2 p-2" onclick={toggleSidebar}>
 					<X />
@@ -27,7 +27,7 @@
 
 			<div class="component-list flex flex-col">
 				{#each componentData as component}
-					<a href="/{component.routeApi}">
+					<a href="/{component.routeApi}" onclick={toggleSidebar}>
 						<div class="text-xl">{component.componentName}</div>
 					</a>
 				{/each}
